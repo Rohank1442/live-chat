@@ -1,3 +1,15 @@
+body{
+    height: 90vh;
+    background-color: green;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
 .logo{
     display: block;
     margin: auto;
@@ -5,13 +17,10 @@
     width: 50px;
 }
 
-/* body{
-    background-image: linear-gradient();
-} */
-
 .container{
     max-width: 955px;
     border: 2px solid black;
+    border-radius: 13px;
     margin: auto;
     height: 60vh;
     padding: 33px;
@@ -23,7 +32,7 @@
     background-color: gray;
     width: 24%;
     padding: 10px;
-    margin: 17px 12px;
+    margin: 17px 12px; 
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -42,18 +51,24 @@
     display: block;
     margin: auto;
     text-align: center;
-    max-width: 985px;
+    text-align: center;
+    max-width: 1085px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #messageInp{
-    width: 92%;
+    width: 80%;
     border: 2px solid black;
     border-radius: 6px;
     height: 34px;
+    font-size: 22px;
 }
 
 .btn{
+    margin: 0 5px;
+    width: 9%;
     cursor: pointer;
     border: 2px solid black;
     border-radius: 6px;
